@@ -1649,6 +1649,16 @@
       "homepage": "https://github.com/nguyenha935/kiro-cpa-plugin",
       "license": "MIT",
       "tags": ["Provider", "Kiro", "OAuth", "Quota"]
+    },
+    {
+      "id": "cliproxyapi-ollama",
+      "name": "Ollama Provider",
+      "description": "Serves the models of an Ollama instance through CLIProxyAPI, publishing deployment-accurate context_length, max_completion_tokens, and display_name in /v1/models. Each model can observe Ollama's real allocation or have num_ctx, num_predict, and keep_alive managed from CPAMC. 将 Ollama 实例的模型接入 CLIProxyAPI，在 /v1/models 中发布与实际部署一致的 context_length、max_completion_tokens 和 display_name，每个模型可观察 Ollama 的真实上下文分配，或由 CPAMC 统一管理 num_ctx、num_predict 和 keep_alive。",
+      "author": "moutansos",
+      "repository": "https://github.com/moutansos/cliproxyapi-ollama-plugin",
+      "homepage": "https://github.com/moutansos/cliproxyapi-ollama-plugin",
+      "license": "MIT",
+      "tags": ["Provider", "Executor", "Model Router", "Ollama", "Local Models"]
     }
   ]
 }
